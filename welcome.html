@@ -7,28 +7,37 @@
  <title>Спорт Онлайн</title>
  <meta name="description" content="Спортивные трансляции онлайн"/>
  <style>
-  body {background: black;}
-.center-table {
-  display: table;
-  height: 250px;
-  background: white;
-  width: 240px;
-  margin: 20px;
-}
-.center-table p {
-  display: table-cell;
+html, body {
+  padding: 0;
   margin: 0;
-  background: black;
-  color: white;
-  padding: 20px;
-  border: 10px solid white;
+  height: 100%;
+  width: 100%;
+ background: black;
+}
+.b-layout {
+  width: 100%;
+  height: 100%;
   vertical-align: middle;
+  text-align: center;
+  background: #000;
+}
+.b-content {
+  display: inline-block;
+  width: 200px;
+  background: #fff;
+  padding: 10px;
 }
  </style>
 </head>
 <body>
-<div class="center-table">
-  <p><img src="https://img.icons8.com/color/50/000000/play-button-circled--v3.png"/></p>
-</div>
+<table class="b-layout">
+  <tr>
+    <td>
+      <div class="b-content">
+        <img src="https://img.icons8.com/color/50/000000/play-button-circled--v3.png">
+      </div>
+    </td>
+  </tr>
+</table>
 </body>
 </html>
