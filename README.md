@@ -1,2 +1,1 @@
-# watchme.top
-для приложухи сайта.
+watchme.top
